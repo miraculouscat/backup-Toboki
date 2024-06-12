@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Toboki",
+    "slug": "Toboki",
+    "version": "1.0.0",
+    "scheme": "toboki-scheme",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4a5c9c"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.christinaa21.Toboki"
+    },
+    "web": {
+      "favicon": "./assets/icon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d120c299-76bc-4534-94b5-9266847802a8"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "owner": "toboki"
+  }
+}
